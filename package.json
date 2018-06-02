@@ -1,0 +1,35 @@
+{
+  "name": "auwebsite",
+  "version": "0.0.1",
+  "description": "Au Web Site",
+  "private": true,
+  "scripts": {
+    "start": "node server",
+    "build": "node build",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "deploy": "git subtree push --prefix=public/ website master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auruscha/auwebsite.git"
+  },
+  "author": "auRuscha",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/auruscha/auwebsite/issues"
+  },
+  "homepage": "https://github.com/auruscha/auwebsite#readme",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "jstransformer-handlebars": "^1.1.0",
+    "metalsmith": "^2.3.0",
+    "metalsmith-assets": "^0.1.0",
+    "metalsmith-layouts": "^2.1.0",
+    "metalsmith-markdown": "^0.2.2",
+    "metalsmith-permalinks": "^0.5.0",
+    "metalsmith-sass": "^1.5.1"
+  }
+}
