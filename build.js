@@ -2,14 +2,14 @@ var Metalsmith  = require('metalsmith');
 var markdown    = require('metalsmith-markdown');
 var layouts     = require('metalsmith-layouts');
 var permalinks  = require('metalsmith-permalinks');
-const assets    = require('metalsmith-assets');
+const assets    = require('mrs-smith-assets');
 const inlinesource = require('metalsmith-inline-source');
 
 Metalsmith(__dirname)
 .metadata({
-  title: "CrazyPinkWidow",
-  description: "CrazyPinkWidow's Blog",
-  url: "https://crazypinkwidow.github.io/"
+  title: "auRuscha",
+  description: "auRuscha's website",
+  url: "https://auruscha.github.io/"
 })
 .source('src')
 .destination('public')
