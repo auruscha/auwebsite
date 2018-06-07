@@ -14,8 +14,12 @@
 
 
 /* Optional Modules (not included in Basscss by default) */
-/*
 
+@import 'basscss-btn';
+@import 'basscss-colors';
+@import 'basscss-background-colors';
+
+/*
 @import 'basscss-addons/modules/responsive-margin';
 @import 'basscss-addons/modules/responsive-padding';
 
@@ -52,6 +56,9 @@
   --h4: 1rem;
   --h5: .875rem;
   --h6: .75rem;
+  
+  --color-foreground: #f788b0;
+  --color-background: #4c384a;
 }
 
 /* bassplate */
@@ -62,10 +69,11 @@
 
 body {
   font-family: 'Gochi Hand', cursive;
+  font-size: 24px;
   line-height: 1.5;
   margin: 0;
-  color: #111;
-  background-color: #fff;
+  color: var(--color-foreground);
+  background-color: var(--color-background);
 }
 
 img {
@@ -78,7 +86,7 @@ svg {
 }
 
 a {
-  color: #07c;
+  color: var(--color-foreground);
 }
 
 h1, h2, h3,

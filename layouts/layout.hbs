@@ -12,60 +12,36 @@
     {{!--<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>--}}
   </head>
   <body>
-  <div class="container">
-    <nav class="clearfix">
-      <div class="sm-col">
-        <a href="/" class="btn py2">Home</a>
-        <a href="/" class="btn py2">Burgers</a>
-        <a href="/" class="btn py2">Fries</a>
-      </div>
-      <div class="sm-col-right">
-        <a href="/" class="btn py2">About</a>
-      </div>
-    </nav>
-  </div>
-
-  
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-    <a class="navbar-brand" href="/">
-      <img src="/images/profile.jpg" width="60" height="60" class="circle" alt="">
-      <span class="h2">{{title}}</span>
+<div class="max-width-4 mx-auto">
+  <nav class="clearfix">
+  <div class="left">
+    {{!--<a href="/profile" class="btn mx2">--}}
+    {{!--  <img src="/images/profile.jpg" width="54" height="54" class="circle align-middle mr2" alt="">--}}
+    {{!--  <span class="h1">{{title}}</span>--}}
+    {{!--</a>--}}
+    <a href="/profile" class="btn">
+      <img src="/images/profile.jpg" width="54" height="54" class="circle align-middle" alt="">
     </a>
-    
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Blog</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">World of Tank Blitz</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Photos</a>
-      </li>
-    </ul>
-    </div>
+    <a href="/blog" class="btn">Blog</a>
+    <a href="/photos" class="btn">Photos</a>
+  </div>
+  <div class="right mt2">
+    <a href="/profile" class="btn">{{title}}</a>
+  </div>
+  
   </nav>
 
-  <div class="container mt-7">
+
+
+
+  <div class="">
   {{{ contents }}}
-    
   </div>
+</div>
 
 
-  <section class="section">
-    <div class="container">
-      <h1 class="title">
-        Hello World
-      </h1>
-      <p class="subtitle">
-        My first website with <strong>Bulma</strong>!
-      </p>
-      <p class="is-size-6">{{ title }}</p>
-      <p>{{ description }}</p>
-    </div>
-  </section>
-  
+
+
 
 
   <footer>

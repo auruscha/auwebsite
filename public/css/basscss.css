@@ -683,16 +683,122 @@
 
 .display-none{ display:none !important }
 
+.btn{
+  font-family:inherit;
+  font-size:inherit;
+  font-weight:bold;
+  text-decoration:none;
+  cursor:pointer;
+  display:inline-block;
+  line-height:1.125rem;
+  padding:.5rem 1rem;
+  margin:0;
+  height:auto;
+  border:1px solid transparent;
+  vertical-align:middle;
+  -webkit-appearance:none;
+  color:inherit;
+  background-color:transparent;
+}
+
+.btn:hover{
+  text-decoration:none;
+}
+
+.btn:focus{
+  outline:none;
+  border-color:rgba(0, 0, 0, .125);
+  box-shadow:0 0 0 3px rgba(0, 0, 0, .25);
+}
+
+::-moz-focus-inner{
+  border:0;
+  padding:0;
+}
+
+.black{ color:#111111 }
+
+.gray{ color:#AAAAAA }
+
+.silver{ color:#DDDDDD }
+
+.white{ color:#FFFFFF }
+
+.aqua{ color:#7FDBFF }
+
+.blue{ color:#0074D9 }
+
+.navy{ color:#001F3F }
+
+.teal{ color:#39CCCC }
+
+.green{ color:#2ECC40 }
+
+.olive{ color:#3D9970 }
+
+.lime{ color:#01FF70 }
+
+.yellow{ color:#FFDC00 }
+
+.orange{ color:#FF851B }
+
+.red{ color:#FF4136 }
+
+.fuchsia{ color:#F012BE }
+
+.purple{ color:#B10DC9 }
+
+.maroon{ color:#85144B }
+
+.color-inherit{ color:inherit }
+
+.muted{ opacity:.5 }
+
+.bg-black{ background-color:#111111 }
+
+.bg-gray{ background-color:#AAAAAA }
+
+.bg-silver{ background-color:#DDDDDD }
+
+.bg-white{ background-color:#FFFFFF }
+
+.bg-aqua{ background-color:#7FDBFF }
+
+.bg-blue{ background-color:#0074D9 }
+
+.bg-navy{ background-color:#001F3F }
+
+.bg-teal{ background-color:#39CCCC }
+
+.bg-green{ background-color:#2ECC40 }
+
+.bg-olive{ background-color:#3D9970 }
+
+.bg-lime{ background-color:#01FF70 }
+
+.bg-yellow{ background-color:#FFDC00 }
+
+.bg-orange{ background-color:#FF851B }
+
+.bg-red{ background-color:#FF4136 }
+
+.bg-fuchsia{ background-color:#F012BE }
+
+.bg-purple{ background-color:#B10DC9 }
+
+.bg-maroon{ background-color:#85144B }
+
 *{
   box-sizing:border-box;
 }
 
 body{
   font-family:'Gochi Hand', cursive;
+  font-size:24px;
   line-height:1.5;
   margin:0;
-  color:#111;
-  background-color:#fff;
+  color:#f788b0;
+  background-color:#4c384a;
 }
 
 img{
@@ -705,7 +811,7 @@ svg{
 }
 
 a{
-  color:#07c;
+  color:#f788b0;
 }
 
 h1, h2, h3,
