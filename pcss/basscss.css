@@ -57,8 +57,8 @@
   --h5: .875rem;
   --h6: .75rem;
   
-  --color-foreground: #f788b0;
-  --color-background: #4c384a;
+  --custom-color-foreground: #f788b0;
+  --custom-color-background: #4c384a;
 }
 
 /* bassplate */
@@ -72,8 +72,8 @@ body {
   font-size: 24px;
   line-height: 1.5;
   margin: 0;
-  color: var(--color-foreground);
-  background-color: var(--color-background);
+  color: var(--custom-color-foreground);
+  background-color: var(--custom-color-background);
 }
 
 img {
@@ -86,7 +86,7 @@ svg {
 }
 
 a {
-  color: var(--color-foreground);
+  color: var(--custom-color-foreground);
 }
 
 h1, h2, h3,
