@@ -1,24 +1,78 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>{{ title }}</title>
-  <meta name="description" content="{{ description }}">
-</head>
-<body>
-  <header>
-    <p>
-      <a href="/">Home</a>
-    </p>
-  </header>
-  <h1>{{ title }}</h1>
-  <p>{{ description }}</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ description }}">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <title>{{ title }}</title>
+    <link href="https://fonts.googleapis.com/css?family=Black+And+White+Picture|Freckle+Face" rel="stylesheet">
+    <link inline rel="stylesheet" type="text/css" href="assets/css/basscss.min.css">
+    {{!--<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>--}}
+  </head>
+  <body>
+  <div class="container">
+    <nav class="clearfix">
+      <div class="sm-col">
+        <a href="/" class="btn py2">Home</a>
+        <a href="/" class="btn py2">Burgers</a>
+        <a href="/" class="btn py2">Fries</a>
+      </div>
+      <div class="sm-col-right">
+        <a href="/" class="btn py2">About</a>
+      </div>
+    </nav>
+  </div>
 
+  
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+    <a class="navbar-brand" href="/">
+      <img src="/images/profile.jpg" width="60" height="60" class="circle" alt="">
+      <span class="h2">CrazyPinkWidow</span>
+    </a>
+    
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">World of Tank Blitz</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Photos</a>
+      </li>
+    </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-7">
   {{{ contents }}}
+    
+  </div>
+
+
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Hello World
+      </h1>
+      <p class="subtitle">
+        My first website with <strong>Bulma</strong>!
+      </p>
+      <p class="is-size-6">{{ title }}</p>
+      <p>{{ description }}</p>
+    </div>
+  </section>
+  
+
 
   <footer>
-    <p>Generated with {{ generator }} &mdash; <a href="{{ url }}">{{ url }}</a></p>
+    
+    
+    
   </footer>
-
-</body>
+  
+  </body>
 </html>
+

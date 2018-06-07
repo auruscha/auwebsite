@@ -2,7 +2,7 @@
 layout: layout.hbs
 ---
 
-<h2>Read what I have to say</h2>
+<h2>ภาษาไทย</h2>
 
 <a href="/posts/first-post/">First post</a>
 
